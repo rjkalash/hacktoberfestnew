@@ -1,13 +1,13 @@
-def binary_search(alist, start, end, key):
-    """Search key in alist[start... end - 1]."""
-    if not start < end:
+def binary_search(alist, low, high, key):
+    """Search key in alist[low... high - 1]."""
+    if not low < high:
         return -1
  
-    mid = (start + end)//2
+    mid = (low + high)//2
     if alist[mid] < key:
-        return binary_search(alist, mid + 1, end, key)
+        return binary_search(alist, mid + 1, high, key)
     elif alist[mid] > key:
-        return binary_search(alist, start, mid, key)
+        return binary_search(alist, low, mid, key)
     else:
         return mid
  
