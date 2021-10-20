@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insert Data</title>
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<style>
+		.box {
+			width:500px;
+			padding: 20px;
+			background-color: #8ff;
+			margin-top: 200px;  
+		}
+	</style>
+</head>
+<body>
+	<center><h2>Select a Vehicle</h2></center>
+	<hr>
+	<div class="container box">
+		<form method="POST" action="userRequirement.php">
+			<div class="form-group">
+				<label>Customer Name</label>
+				<input type="text" name="customerName" id="cName" class="form-control">
+			</div><br>
+			<div class="form-group">
+				<label>NIC Number</label>
+				<input type="text" name="idNumber" id="id" class="form-control">
+			</div><br>
+			<div class="form-group">
+				<label>Route Destination</label>
+				<input type="text" name="routeDestination" id="route" class="form-control">
+			</div><br>
+			<div class="form-group">
+				<label>Number of Passengers</label>
+				<input type="text" name="numOfPassengers" id="passengers" class="form-control">
+			</div><br>
+			<div class="form-group">
+				<label>Date</label>
+				<input type="text" name="date" id="date" class="form-control">
+			</div><br>
+			<button type="submit" class="btn btn-primary"> Send </button>
+		</form>
+	</div>
+</form>
+</body>
+</html>

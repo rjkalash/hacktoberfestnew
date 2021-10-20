@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration page</title>
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<style>
+		.box {
+			width:500px;
+			padding: 20px;
+			background-color: #8ff;
+			margin-top: 200px;  
+		}
+	</style>
+</head>
+<body>
+	<div class="container box">
+		<form action="userRegistration.php" method="POST">
+			<div class="form-group">
+					<center><h3>Signin</h3></center>
+					<label>User Name :</label>
+					<input type="text" name="userName" class="form-control">
+					<label>Email : </label>
+					<input type="text" name="email" class="form-control">
+					<label>Password :</label>
+					<input type="password" name="password" class="form-control">
+					<label>Re Enater Password : </label>
+					<input type="password" name="rePassword" class="form-control"><br>
+					<button type="submit" class="btn btn-primary">Done</button>
+					</div>
+				</div>
+			</div>
+		</form>
+</body>
+</html>
