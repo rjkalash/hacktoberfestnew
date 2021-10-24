@@ -1,5 +1,3 @@
-# Follow me 
-# Fork the REPO 
-# Create your Code
-# Create the pull request and submit it 
-# Don't forget to follow
+
+# THIS REPO IS ALSO EXCLUDED FROM HACKTOBERFEST 2021. 
+# THANK YOU 
